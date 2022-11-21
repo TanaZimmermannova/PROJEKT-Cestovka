@@ -105,6 +105,7 @@ p {
 
     @media screen and (min-width: 960px) {
         grid-template-columns: auto auto auto;
+        grid-template-rows: 180px 180px;
         grid-auto-flow: dense;
 
         .velky1 {
