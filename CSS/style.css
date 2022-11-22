@@ -19,6 +19,8 @@ body {
 
 h1 {
   margin: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
 }
 
 p {
@@ -74,10 +76,6 @@ p {
     -o-object-fit: cover;
        object-fit: cover;
   }
-  .section h1 {
-    grid-column: 1/-1;
-    grid-row: 1/2;
-  }
   .section .velky1 {
     grid-column: 1/-1;
   }
@@ -99,13 +97,13 @@ p {
     height: 380px;
   }
   .section .velky2 {
-    grid-area: 2/2/4/4;
+    grid-area: 1/2/3/4;
   }
   .section .maly1 {
-    grid-area: 2/1/3/2;
+    grid-area: 1/1/2/2;
   }
   .section .maly2 {
-    grid-area: 3/1/4/2;
+    grid-area: 2/1/3/2;
   }
 }
 
@@ -214,9 +212,6 @@ p {
   .news {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-flow: dense;
-  }
-  .news h1 {
-    grid-column: 1/-1;
   }
 }
 
